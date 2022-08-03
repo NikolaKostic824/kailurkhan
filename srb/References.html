@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kailurkhan</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <nav id="topALink">
+        <div class="logo">
+            <img onclick="goToHome()" class="textLogo" src="../images/textLogo.png" alt="Kailurkhan logo">
+            <img onclick="goToHome()" class="mobileLoge" src="../images/logo.png" alt="Kailurkhan logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Početna</a></li>
+            <li><a class="activeLink" href="References.html">Reference</a></li>
+            <li><a href="About.html">O meni</a></li>
+            <li><a href="Contact.html">Kontakt</a></li>
+        </ul>
+        <div class="burger" onclick="lockScroll()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <section class="referenceSection1 deskVersion">
+
+        <div class="item PortSwap" id="swap_0">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Jedinstven komad umetničkog dela kao privezak, koji predstavlja muzičku izdavačku kuću: Imperia zajedno sa reperom Jala Brat, ponosno prikazujući njegovu ličnost i životno delo.
+                    </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoJala()>Jala Brat</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Čisto srebro / pozlaćeno belo zlato</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>70 pieces CZ yellow / white</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Dosta pažnje i brige je posvećeno sitnim detaljima priveska, kao na primer datum rođena na jakni i znak koji pokazuje na logu njegove muzičke izdavačke kuće. Boja kamenja je u boji izdavačke kuće i raspoređeni su na način tako da se istaknu i pruže neverovatan sjaj koju zaslužuje cela priča. </p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoJala()>Jala Brat</h1>
+                <img src="../images/jalaBrat.jpg" alt="Jala Brat" onclick=gotoJala()>
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_1">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Ovaj poseban privezak je napravljen na način da predstavlja samog klijenta zajedno sa njegovim brendom (prikazan kao mali deo lanca) i delom njegovog života.</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoMacDames()>Mack Dames</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Bakar / pozlaćeno belo zlato </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>39 pieces CZ black / white</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Kamenja su postavljena tako da označe sjajne delove kao što je sat davajući 3D izgled. Lanac za nošenje samog komada ide iza priveska poput nevidljivog tako da se sve još više istakne.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoMacDames()>Mack Dames</h1>
+                <img onclick=gotoMacDames() src="../images/mack.jpg" alt="Mack">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_2">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>2Bona, 2 priveska, 2 materijala, 2 boje, svaki deo priveska je unikatan na svoj način u pogledu materijala i tehnike, korišćene kako bi predstavljale izdavačku kuću: 
+                    Gorila na jednistven način napravljena kako bi dala veoma moćan izgled.</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Client:</h3>
+                    <p onclick=gotoKun()>Kun</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p>Legura bele bronze</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>150 6A Quality CZ white/yellow</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Kako bi ovaj set nakita postao jedinstven, svaki deo priveska je napravljen od legure bronze kako bi se dobila jedinstvena boja i sjaj, što čini da boja svakog kamena, upotrebljenih za priveske, dođu do izražaja. Dosta sitnih detalja je korišćeno za priveske, kao na primer imena umetnika na čelu gorile, koji treba da predstavljaju tetovaže; kao i raspored kamenja na kruni za veći 3D izgled.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoKun()>2Bona, Kun</h1>
+                <img onclick=gotoKun() src="../images/2BonaKun.jpg" alt="2BonaKun">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_3">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>2Bona, 2 priveska, 2 materijala, 2 boje, svaki deo priveska je unikatan na svoj način u pogledu materijala i tehnike, korišćene kako bi predstavljale izdavačku kuću: 
+                    Gorila na jednistven način napravljena kako bi dala veoma moćan izgled.</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoBontoni()>Bontoni</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Legura aluminijumske bronze</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>150 6A Quality CZ white/champagne</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Kako bi ovaj set nakita postao jedinstven, svaki deo priveska je napravljen od legure bronze kako bi se dobila jedinstvena boja i sjaj, što čini da boja svakog kamena, upotrebljenih za priveske, dođe do izražaja. Dosta sitnih detalja je korišćeno za priveske, kao na primer imena umetnika na čelu gorile, koji treba da predstavljaju tetovaže; kao i raspored kamenja na kruni za veći 3D izgled.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoBontoni()>2Bona, Bontoni</h1>
+                <img onclick=gotoBontoni() src="../images/2BonaBontoni.jpg" alt="2Bona Bontoni">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_4">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Jedan od jednog priveska koji predstavlja noćni život kralja Beograda i njegov brend sa stilom na modni način.
+                    </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoMrEverything()> Aleksandar Raičević</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Specijalno napravljena legura srebra.</p>
+                </div>
+               <!--  <div class="itemTextContent">
+                    <h3>Stones:</h3>
+                    <p>25 black 6A Quality CZ on the back / 40 pink and citrine on the front</p>
+                </div> -->
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Nakit sam po sebi je napravljen od specijalno izrađene legure srebra kako bi dao jedinstvenu boju i sjaj. Umesto stavljanja kamenja u sam komad nakita, ostavljenje su šupljine kako bi pozadinsko svetlo i boja sijale kroz njih, a ujedno i sam klijent na moderan i adekvatan način.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoMrEverything()>Mr Everything</h1>
+                <img onclick=gotoMrEverything() src="../images/mrEverything.jpg" alt="Mr Everything">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_5">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Jedinstven i sentimentalan privezak koji predstavlja jednog psa samog klijenta; ZEUS sa specijalnim dodatkom loga kompanije samog klijenta; Kompanija Muzik, dve bitne stvari spojene iz života klijenta.
+                    </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoJasonHardy()>Jason Hardi</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Specijalno izrađena vojna legura bronze</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>25 black 6A Quality CZ on the back / 40 pink and citrine on the front</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Fokus rada je posvećen detaljima i rasporedu kamenja kako bi dali jedinstven izgled. Kamenje korišćeno za oči psa su postavljene u položaju obrnute piramide, za postizanje efekta poput sočiva kako bi izgledale kao prave i da bi se slagale sa bojom očiju kakvu ima pravo kuče.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoJasonHardy()>Jason Hardi</h1>
+                <img onclick=gotoJasonHardy() src="../images/jasonHardi.jpg" alt="Jason Hardi">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_6">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Inspiracija za ovaj komad nakita bila je: The Royal Flush uvek pobeđuje. Jedinstven i delikatan privezak koji predstavlja brend i život klijenta na poseban i umetnički način.</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoElek()>Matija Elek</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Mesing / pozlaćeno belo zlato </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>112 bright white CZ</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Najveći deo posla je posvećen samom pik simbolu koji je u potpunosti ispunjen kamenjem kako bi zajedno sa pozlaćenim belim zlatom dali sjajan izgled na crnoj pozadini. The Royal Flush je napravljen na način tako da izgleda kao prave karte u 3D, spremne da očiste sto.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoElek()>Elek Spade</h1>
+                <img onclick=gotoElek() src="../images/elekSpade.jpg" alt="Elek Spade">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_7">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Privezak koji predstavlja logo klijenta na nov i moderan način. Sam klijent zajedno sa njegovim poslom i strašću da istraži svet, sve zajedno spojeno u jedan komad nakita.</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoTropical()>Ljuba Radojević</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Svetložuta aluminijumska bronza</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>490 CZ bright white / champagne / citrine </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Sam privezak dizajniran je na način da samog klijenta zajedno sa njegovom kamerom zaista istakne slojevima. Kamenje je postavljeno u pozadini kako bi dali bolji kontrast i da bi pojačalo 3D-efekat, takođe zalazak Sunca je dodat sa strane nakita da pruži osećaj otvorenog polja i veće dubine.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoTropical()>Tropical LifeIsFun</h1>
+                <img onclick=gotoTropical() src="../images/tropicalLifelsFun.jpg" alt="Tropical LifeIsFun">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_8">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Novi logo, novi komad nakita, "vredan rad mora biti nagrađen jednog dana" jeste bila motivacija iza ovog unikatnog komada nakita. Kombinujući bitne stvari  iz života samog klijenta, kao što je to jedan od njegovih omiljenih strip edicija napisana na poleđini nakita i vredan rad njegove DJ i muzičke karijere, forma njegovog loga je u stilu nalik onom na njegovom Instagram profilu, zajedno prave ne samo komad nakita već i sentimentalno umetničko delo.</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Client:</h3>
+                    <p onclick=gotoDjFricktion()>DJ Fricktion</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Svetložuti aluminijum / srebrna bronza</p>
+                </div>
+                <!--                 <div class="itemTextContent">
+                        <h3>Stones:</h3>
+                        <p></p>
+                    </div> -->
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Posebna pažnja je pružena kako bi sam logo bio predstavljen kao autentičan i originalan što je više moguće. Sve ovo zajedno sa teksturom pozadine čini da se ugravirani 3D logo još više istakne. Nijedan kamen nije korišćen, sam komad nakita po sebi je jedinstven. </p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoDjFricktion()>DJ Fricktion</h1>
+                <img onclick=gotoDjFricktion() src="../images/djFrixton.jpg" alt="DJ Fricktion">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_9">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Jedinstven prikaz loga i delo samog klijenta. Datum početka YouTube karijere klijenta i sam logo spojeni  zajedno na moderan i u neku ruku digitalni izgled.
+                    </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Client:</h3>
+                    <p onclick=gotoNedimLepic()>Nedim Lepić </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Svetlobela srebrna aluminijumska brozna</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>69 6A london blue / black CZ </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Sam logo po sebi je glavna stvar pored ostalih detalja, dosta pažnje je posvećeno, kako bi se dao autentičan i u isto vreme jedinstven izgled, davajući mu grubu površinu. Datum koji obeležava početak YouTube karijere klijenta je napravljen da izgleda kao kutija skoro kao digitalni sat. Pozadina samog loga je napravljena na način tako da izgleda kao tekstura papira. Logo i pozadina, kao komad nakita, zajedno sa plavim ramom i četiri crna kamena u svakom ćošku,  izgledaće kao umetnička slika.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoNedimLepic()>Nedim Lepić </h1>
+                <img onclick=gotoNedimLepic() src="../images/nedimLepic.jpg" alt="Nedim Lepić">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_10">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Moderan i jedinstven prikaz brenda i životnog dela samog klijenta. Datum rođendana i datum početka i kreiranje brenda 7D samog klijenta su stavljena na ovaj poseban prsten.
+                    </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoSashaDevic()>Sasha Dević</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Materijal:</h3>
+                    <p>Volfram berilijum bronza</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>80 6A Quality 8 hearts and arrows cut london blue CZ </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>U centru prstena je logo brenda samog klijenta u 3D, okružen london blue kamenjem koji daju logu više sjaja i dominantniji izgled. Kamenje je odabrano posebno u toj boji da bi se priča o čitavom brendu dovela u prvi plan. Sve zajedno je napravljeno da izgleda kao da logo pliva u okeanu.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoSashaDevic()>Sasha Dević </h1>
+                <img onclick=gotoSashaDevic() src="../images/sashaDevic.jpg" alt="Sasha Devic">
+            </div>
+        </div>
+
+        <div class="item PortSwap" id="swap_11">
+            <div class="itemText">
+                <div class="itemTextContent">
+                    <h3>Info</h3>
+                    <p>Jedinstven i poseban prikaz brenda; Get Low, samog klijenta. Ovaj komad nakita je napravljen kao dodatak već prvom postojećem komadu koji je napravljen za klijenta, tako da viziju prvog nakit sprovede u realnost.
+                    </p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Klijent:</h3>
+                    <p onclick=gotoMacDames()>Mack Dames</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Material:</h3>
+                    <p>Srebro / nikl bronza</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Kamenje:</h3>
+                    <p>80 6A Quality 8 hearts and arrows cut champagne, yellow and white CZ</p>
+                </div>
+                <div class="itemTextContent">
+                    <h3>Priča:</h3>
+                    <p>Velika pažnja i briga je posvećena samom logu kako bi se prikazao autentičan što je više moguće. Kamenje svojom bojom su raspoređena na način tako da istaknu logo još više u prvi plan. Slova; GET, su upotrebljena kao držač za  kasniji lanac, lanac ide iza slova tako da ceo komad bude istaknut u prvi plan.</p>
+                </div>
+            </div>
+            <div class="itemBorder"></div>
+            <div class="itemImage">
+                <h1 onclick=gotoMacDames()>Get Low</h1>
+                <img onclick=gotoMacDames() src="../images/getLow.jpg" alt="Get Low">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="referenceSection2">
+        <div class="referenceSection2Text">
+            <h2 class="referenceSection2TextSrb">DALJE</h2>
+            <h2 class="referenceSection2TextSrb backTextSrb">NAZAD</h2>
+        </div>
+        <div class="referenceSection2Icons">
+            <a href="#topALink">
+                <img class="btn_nav" id="btn_forward" src="../images/nextArrow.png" alt="Next arrow">
+            </a>
+            <a href="#topALink" class="backArrow">
+                <img class="btn_nav" id="btn_backward" src="../images/prevArrow.png" alt="Previous arrow">
+            </a>
+        </div>
+    </section>
+
+
+    <section class="referenceSection1 mobileVersion mySwiper">
+        <div class="swiper-wrapper">
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Jedinstven komad umetničkog dela kao privezak, koji predstavlja muzičku izdavačku kuću: Imperia zajedno sa reperom Jala Brat, ponosno prikazujući njegovu ličnost i životno delo.</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoJala()>Jala Brat</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Čisto srebro / pozlaćeno belo zlato</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>70 pieces CZ yellow / white</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Dosta pažnje i brige je posvećeno sitnim detaljima priveska, kao na primer datum rođena na jakni i znak koji pokazuje na logu njegove muzičke izdavačke kuće. Boja kamenja je u boji izdavačke kuće i raspoređeni su na način tako da se istaknu i pruže neverovatan sjaj koju zaslužuje cela priča.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoJala()>Jala Brat</h1>
+                    <img onclick=gotoJala() src="../images/jalaBrat.jpg" alt="Jala Brat">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Ovaj poseban privezak je napravljen na način da predstavlja samog klijenta zajedno sa njegovim brendom (prikazan kao mali deo lanca) i delom njegovog života.</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoMacDames()>Mack Dames</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Bakar / pozlaćeno belo zlato </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>39 pieces CZ black / white</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Kamenja su postavljena tako da označe sjajne delove kao što je sat davajući 3D izgled. Lanac za nošenje samog komada ide iza priveska poput nevidljivog tako da se sve još više istakne.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoMacDames()>Mack Dames</h1>
+                    <img onclick=gotoMacDames() src="../images/mack.jpg" alt="Mack">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>2Bona, 2 priveska, 2 materijala, 2 boje, svaki deo priveska je unikatan na svoj način u pogledu materijala i tehnike, korišćene kako bi predstavljale izdavačku kuću: 
+                        Gorila na jednistven način napravljena kako bi dala veoma moćan izgled.</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoKun()>Kun</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Legura bele bronze</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>150 6A Quality CZ white/yellow</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Kako bi ovaj set nakita postao jedinstven, svaki deo priveska je napravljen od legure bronze kako bi se dobila jedinstvena boja i sjaj, što čini da boja svakog kamena, upotrebljenih za priveske, dođu do izražaja. Dosta sitnih detalja je korišćeno za priveske, kao na primer imena umetnika na čelu gorile, koji treba da predstavljaju tetovaže; kao i raspored kamenja na kruni za veći 3D izgled.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoKun()>2Bona, Kun</h1>
+                    <img onclick=gotoKun() src="../images/2BonaKun.jpg" alt="2BonaKun">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>2Bona, 2 priveska, 2 materijala, 2 boje, svaki deo priveska je unikatan na svoj način u pogledu materijala i tehnike, korišćene kako bi predstavljale izdavačku kuću: 
+                            Gorila na jednistven način napravljena kako bi dala veoma moćan izgled.</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoBontoni()>Bontoni</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Legura aluminijumske bronze</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>150 6A Quality CZ white/champagne</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Kako bi ovaj set nakita postao jedinstven, svaki deo priveska je napravljen od legure bronze kako bi se dobila jedinstvena boja i sjaj, što čini da boja svakog kamena, upotrebljenih za priveske, dođe do izražaja. Dosta sitnih detalja je korišćeno za priveske, kao na primer imena umetnika na čelu gorile, koji treba da predstavljaju tetovaže; kao i raspored kamenja na kruni za veći 3D izgled.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoBontoni()>2Bona, Bontoni</h1>
+                    <img onclick=gotoBontoni() src="../images/2BonaBontoni.jpg" alt="2Bona Bontoni">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Jedan od jednog priveska koji predstavlja noćni život kralja Beograda i njegov brend sa stilom na modni način.</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoMrEverything()> Aleksandar Raičević</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Specijalno napravljena legura srebra.</p>
+                    </div>
+                   <!--  <div class="itemTextContent">
+                        <h3>Stones:</h3>
+                        <p>25 black 6A Quality CZ on the back / 40 pink and citrine on the front</p>
+                    </div> -->
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Nakit sam po sebi je napravljen od specijalno izrađene legure srebra kako bi dao jedinstvenu boju i sjaj. Umesto stavljanja kamenja u sam komad nakita, ostavljenje su šupljine kako bi pozadinsko svetlo i boja sijale kroz njih, a ujedno i sam klijent na moderan i adekvatan način.
+                        </p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoMrEverything()>Mr Everything</h1>
+                    <img onclick=gotoMrEverything() src="../images/mrEverything.jpg" alt="Mr Everything">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Jedinstven i sentimentalan privezak koji predstavlja jednog psa samog klijenta; ZEUS sa specijalnim dodatkom loga kompanije samog klijenta; Kompanija Muzik, dve bitne stvari spojene iz života klijenta.
+                        </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoJasonHardy()>Jason Hardi</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Specijalno izrađena vojna legura bronze</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>25 black 6A Quality CZ on the back / 40 pink and citrine on the front</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Fokus rada je posvećen detaljima i rasporedu kamenja kako bi dali jedinstven izgled. Kamenje korišćeno za oči psa su postavljene u položaju obrnute piramide, za postizanje efekta poput sočiva kako bi izgledale kao prave i da bi se slagale sa bojom očiju kakvu ima pravo kuče.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoJasonHardy()>Jason Hardi</h1>
+                    <img onclick=gotoJasonHardy() src="../images/jasonHardi.jpg" alt="Jason Hardi">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Inspiracija za ovaj komad nakita bila je: The Royal Flush uvek pobeđuje. Jedinstven i delikatan privezak koji predstavlja brend i život klijenta na poseban i umetnički način.
+                        </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoElek()>Matija Elek</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Mesing / pozlaćeno belo zlato</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>112 bright white CZ</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Najveći deo posla je posvećen samom pik simbolu koji je u potpunosti ispunjen kamenjem kako bi zajedno sa pozlaćenim belim zlatom dali sjajan izgled na crnoj pozadini. The Royal Flush je napravljen na način tako da izgleda kao prave karte u 3D, spremne da očiste sto. </p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoElek()>Elek Spade</h1>
+                    <img onclick=gotoElek() src="../images/elekSpade.jpg" alt="Elek Spade">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Privezak koji predstavlja logo klijenta na nov i moderan način. Sam klijent zajedno sa njegovim poslom i strašću da istraži svet, sve zajedno spojeno u jedan komad nakita.</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoTropical()>Ljuba Radojević</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Svetložuta aluminijumska bronza</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>490 CZ bright white / champagne / citrine </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Sam privezak dizajniran je na način da samog klijenta zajedno sa njegovom kamerom zaista istakne slojevima. Kamenje je postavljeno u pozadini kako bi dali bolji kontrast i da bi pojačalo 3D-efekat, takođe zalazak Sunca je dodat sa strane nakita da pruži osećaj otvorenog polja i veće dubine.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoTropical()>Tropical LifeIsFun</h1>
+                    <img onclick=gotoTropical() src="../images/tropicalLifelsFun.jpg" alt="Tropical LifeIsFun">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Novi logo, novi komad nakita, "vredan rad mora biti nagrađen jednog dana" jeste bila motivacija iza ovog unikatnog komada nakita. Kombinujući bitne stvari  iz života samog klijenta, kao što je to jedan od njegovih omiljenih strip edicija napisana na poleđini nakita i vredan rad njegove DJ i muzičke karijere, forma njegovog loga je u stilu nalik onom na njegovom Instagram profilu, zajedno prave ne samo komad nakita već i sentimentalno umetničko delo.</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent</h3>
+                        <p onclick=gotoDjFricktion()>DJ Fricktion</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Svetložuti aluminijum / srebrna bronza</p>
+                    </div>
+                    <!--                 <div class="itemTextContent">
+                    <h3>Stones:</h3>
+                    <p></p>
+                </div> -->
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Posebna pažnja je pružena kako bi sam logo bio predstavljen kao autentičan i originalan što je više moguće. Sve ovo zajedno sa teksturom pozadine čini da se ugravirani 3D logo još više istakne. Nijedan kamen nije korišćen, sam komad nakita po sebi je jedinstven.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoDjFricktion()>DJ Fricktion</h1>
+                    <img onclick=gotoDjFricktion() src="../images/djFrixton.jpg" alt="DJ Fricktion">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Jedinstven prikaz loga i delo samog klijenta. Datum početka YouTube karijere klijenta i sam logo spojeni  zajedno na moderan i u neku ruku digitalni izgled.
+                        </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Client:</h3>
+                        <p onclick=gotoNedimLepic()>Nedim Lepić </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Svetlobela srebrna aluminijumska brozna</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Stones:</h3>
+                        <p>69 6A london blue / black CZ </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Sam logo po sebi je glavna stvar pored ostalih detalja, dosta pažnje je posvećeno, kako bi se dao autentičan i u isto vreme jedinstven izgled, davajući mu grubu površinu. Datum koji obeležava početak YouTube karijere klijenta je napravljen da izgleda kao kutija skoro kao digitalni sat. Pozadina samog loga je napravljena na način tako da izgleda kao tekstura papira. Logo i pozadina, kao komad nakita, zajedno sa plavim ramom i četiri crna kamena u svakom ćošku,  izgledaće kao umetnička slika.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoNedimLepic()>Nedim Lepić </h1>
+                    <img onclick=gotoNedimLepic() src="../images/nedimLepic.jpg" alt="Nedim Lepić">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Moderan i jedinstven prikaz brenda i životnog dela samog klijenta. Datum rođendana i datum početka i kreiranje brenda 7D samog klijenta su stavljena na ovaj poseban prsten.
+                        </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoSashaDevic()>Sasha Dević</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Volfram berilijum bronza </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>80 6A Quality 8 hearts and arrows cut london blue CZ</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>U centru prstena je logo brenda samog klijenta u 3D, okružen london blue kamenjem koji daju logu više sjaja i dominantniji izgled. Kamenje je odabrano posebno u toj boji da bi se priča o čitavom brendu dovela u prvi plan. Sve zajedno je napravljeno da izgleda kao da logo pliva u okeanu.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoSashaDevic()>Sasha Dević</h1>
+                    <img onclick=gotoSashaDevic() src="../images/sashaDevic.jpg" alt="Sasha Devic">
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <div class="itemText">
+                    <div class="itemTextContent">
+                        <h3>Info</h3>
+                        <p>Jedinstven i poseban prikaz brenda; Get Low, samog klijenta. Ovaj komad nakita je napravljen kao dodatak već prvom postojećem komadu koji je napravljen za klijenta, tako da viziju prvog nakit sprovede u realnost.
+                        </p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Klijent:</h3>
+                        <p onclick=gotoMacDames()>Mack Dames</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Materijal:</h3>
+                        <p>Srebro / nikl bronza</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Kamenje:</h3>
+                        <p>80 6A Quality 8 hearts and arrows cut champagne, yellow and white CZ</p>
+                    </div>
+                    <div class="itemTextContent">
+                        <h3>Priča:</h3>
+                        <p>Velika pažnja i briga je posvećena samom logu kako bi se prikazao autentičan što je više moguće. Kamenje svojom bojom su raspoređena na način tako da istaknu logo još više u prvi plan. Slova; GET, su upotrebljena kao držač za  kasniji lanac, lanac ide iza slova tako da ceo komad bude istaknut u prvi plan.</p>
+                    </div>
+                </div>
+                <div class="itemImage">
+                    <h1 onclick=gotoMacDames()>Get Low</h1>
+                    <img onclick=gotoMacDames() src="../images/getLow.jpg" alt="Get Low">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../index.js"></script>
+</body>
+
+</html>
